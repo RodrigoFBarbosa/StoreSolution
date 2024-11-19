@@ -19,7 +19,10 @@
 
   <ItemGroup>
     <Folder Include="Data\" />
-    <Folder Include="Repositories\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\StoreSolution.Domain\StoreSolution.Domain.csproj" />
   </ItemGroup>
 
 </Project>

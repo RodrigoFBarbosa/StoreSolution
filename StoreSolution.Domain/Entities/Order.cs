@@ -2,7 +2,7 @@
 
 namespace StoreSolution.Domain.Entities;
 
-internal class Order
+public class Order
 {
     [Key]
     public Guid OrderId { get; set; } = Guid.NewGuid();

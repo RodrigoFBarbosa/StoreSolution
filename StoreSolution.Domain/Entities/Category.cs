@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace StoreSolution.Domain.Entities;
 
-internal class Category
+public class Category
 {
     public Category()
     {

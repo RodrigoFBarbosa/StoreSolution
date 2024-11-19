@@ -5,7 +5,7 @@ using System.Text.Json.Serialization;
 
 namespace StoreSolution.Domain.Entities;
 
-internal class Product
+public class Product
 {
     [Key]
     public Guid ProductId { get; set; } = Guid.NewGuid();
